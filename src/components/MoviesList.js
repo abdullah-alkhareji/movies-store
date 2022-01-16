@@ -5,7 +5,15 @@ import MoviesItem from "./MoviesItem";
 const MoviesList = () => {
 	return (
 		<div className='product-container'>
-			<MoviesItem
+			{products.map(product => (
+				<MoviesItem
+					name={product.name}
+					image={product.image}
+					price={product.price}
+				/>
+			))}
+
+			{/* <MoviesItem
 				name={products[0].name}
 				image={products[0].image}
 				price={products[0].price}
@@ -14,7 +22,7 @@ const MoviesList = () => {
 				name={products[1].name}
 				image={products[1].image}
 				price={products[1].price}
-			/>
+			/> */}
 		</div>
 	);
 };
