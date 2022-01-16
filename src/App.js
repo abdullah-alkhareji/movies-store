@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			<h1 className='text'>Movies Store</h1>
+			<h4 className='text'>All amaizing movies you chan watch</h4>
+			<img
+				className='shop-image'
+				src='https://media.timeout.com/images/105822981/750/422/image.jpg'
+				alt='Movies Store'
+			/>
+		</div>
+	);
 }
 
 export default App;
