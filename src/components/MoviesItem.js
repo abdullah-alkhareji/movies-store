@@ -1,5 +1,5 @@
 import React from "react";
-import { products } from "../products";
+// import { products } from "../products";
 
 const MoviesItem = ({ image, name, price }) => {
 	return (

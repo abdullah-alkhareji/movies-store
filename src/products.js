@@ -1,4 +1,4 @@
-export const products = [
+const products = [
 	{
 		name: "Spider-Man",
 		price: 3,
@@ -30,3 +30,5 @@ export const products = [
 			"https://m.media-amazon.com/images/M/MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM@._V1_.jpg",
 	},
 ];
+
+export default products;
