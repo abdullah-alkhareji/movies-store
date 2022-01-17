@@ -23,4 +23,10 @@ export const products = [
 		image:
 			"https://i.pinimg.com/originals/0d/f0/2e/0df02e8458b0578e8a26c20d62647f1a.jpg",
 	},
+	{
+		name: "aladdin",
+		price: 15,
+		image:
+			"https://m.media-amazon.com/images/M/MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM@._V1_.jpg",
+	},
 ];

@@ -5,7 +5,7 @@ const Home = () => {
 		<div style={{ width: "100%", height: "100%" }}>
 			<img
 				className={"shop-image"}
-				src='https://media.timeout.com/images/105822981/750/422/image.jpg'
+				src='https://images.squarespace-cdn.com/content/v1/5425e769e4b0f1b39f8abfd9/1412358459724-T1VCX04ZZUTBQV03JH0K/movies.jpg'
 				alt='Movies Store'
 			/>
 			<h1 className='text'>Movies Store</h1>
